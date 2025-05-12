@@ -1,12 +1,19 @@
-# React + Vite
+# Movie Search & Favorites Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application that lets users search for movies, view trending titles, and manage a list of favorites using The Movie Database (TMDB) API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 Search movies in real-time via TMDB API
+- 🎬 Browse popular/trending movie listings
+- ❤️ Add or remove movies from your personal favorites list
+- 💾 Global state management using React Context API
+- 📱 Responsive UI with adaptive card layout using CSS Grid and Flexbox
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, JSX, CSS
+- **Routing:** React Router
+- **State Management:** React Context API
+- **API:** TMDB (The Movie Database)
+- **Build Tools:** Vite, NPM
